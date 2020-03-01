@@ -1,0 +1,39 @@
+{
+  "type": "DoubleTurret",
+  "name": "rocket",
+  "description": "strong rocket",
+  "health": 5000,
+  "size": 5,
+  "reload": 15,
+  "range": 300,
+  "ammoUseEffect": "shellEjectSmall",
+  "inaccuracy": 5,
+  "rotatespeed": 9,
+  "shootSound": "missile",
+  "ammo": {
+    "surge-alloy": {
+      "type": "MissileBulletType",
+      "speed": 7.20,
+      "damage": 2000,
+      "bulletWidth": 20,
+      "bulletHeight": 25,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "targetAir": true,
+      "ammoMultiplier": 5
+      "lightining": 10
+      "lightningLength": 10
+    }
+  },
+  "requirements": [
+    { "item": "copper", "amount": 2000 },
+    {  "item": "lead", "amount": 2000 },
+    {  "item": "plastanium", "amount": 100 },
+    {  "item": "thorium", "amount": 1500 },
+    {  "item": "titanium", "amount": 3000 },
+    {  "item": "graphite", "amount" : 500 },
+    { "item": "surge-alloy", "amount": 500 }
+  ],
+  "category": "turret",
+  "research": "spectre"
+}
