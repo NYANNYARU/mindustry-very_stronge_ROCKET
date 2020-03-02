@@ -3,7 +3,7 @@
   "name": "rocket",
   "description": "strong rocket",
   "health": 20000,
-  "size": 10,
+  "size": 8,
   "reload": 15,
   "range": 500,
   "ammoUseEffect": "shellEjectSmall",
