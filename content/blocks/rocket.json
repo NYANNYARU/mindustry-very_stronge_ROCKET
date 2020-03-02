@@ -1,5 +1,5 @@
 {
-  "type": "LiquidTurret",
+  "type": "ArtilleryTurret",
   "name": "rocket",
   "description": "strong rocket",
   "health": 20000,
