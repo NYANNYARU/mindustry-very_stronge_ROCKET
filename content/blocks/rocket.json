@@ -60,6 +60,8 @@
       "ammoMultiplier": 5,
       "homingPower": 1,
       "homingRange": 5,
+      "hitEffect": "flakExplosionBig",
+      "splashDamageRadius": 45,
       "reloadMultiplier": 0.1
     },
     "silicon": {
