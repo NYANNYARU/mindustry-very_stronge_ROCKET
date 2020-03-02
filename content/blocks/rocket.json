@@ -61,7 +61,7 @@
       "homingPower": 1,
       "homingRange": 5,
       "splashDamage": 1000,
-      "splashDamageRadius": 100,
+      "splashDamageRadius": 34,
       "reloadMultiplier": 0.1
     },
     "silicon": {
