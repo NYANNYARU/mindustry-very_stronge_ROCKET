@@ -2,13 +2,13 @@
   "type": "DoubleTurret",
   "name": "rocket",
   "description": "strong rocket",
-  "health": 5000,
-  "size": 5,
+  "health": 20000,
+  "size": 10,
   "reload": 15,
-  "range": 300,
+  "range": 500,
   "ammoUseEffect": "shellEjectSmall",
-  "inaccuracy": 5,
-  "rotatespeed": 9,
+  "inaccuracy": 10,
+  "rotatespeed": 5,
   "shootSound": "missile",
   "ammo": {
     "surge-alloy": {
@@ -38,14 +38,27 @@
       "ammoMultiplier": 5,
       "homingPower": 1,
       "homingRange": 20
+    },
+    "silicon": {
+      "type": "MissileBulletType",
+      "speed": 7.20,
+      "damage": 1000,
+      "bulletWidth": 20,
+      "bulletHeight": 25,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "targetAir": true,
+      "ammoMultiplier": 5,
+      "homingPower": 10,
+      "homingRange": 100
     }
   },
   "requirements": [
-    { "item": "copper", "amount": 2000 },
-    {  "item": "lead", "amount": 2000 },
+    { "item": "copper", "amount": 3000 },
+    {  "item": "lead", "amount": 3000 },
     {  "item": "plastanium", "amount": 100 },
     {  "item": "thorium", "amount": 1500 },
-    {  "item": "titanium", "amount": 3000 },
+    {  "item": "titanium", "amount": 2000 },
     {  "item": "graphite", "amount" : 500 },
     { "item": "surge-alloy", "amount": 500 }
   ],
