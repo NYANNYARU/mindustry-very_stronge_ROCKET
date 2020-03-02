@@ -1,7 +1,7 @@
 {
   "type": "DoubleTurret",
   "name": "rocket",
-  "lifetime": 45,
+  "lifetime": 1000,
   "description": "strong rocket",
   "health": 20000,
   "size": 8,
