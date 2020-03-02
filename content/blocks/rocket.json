@@ -42,14 +42,14 @@
     "silicon": {
       "type": "MissileBulletType",
       "speed": 7.20,
-      "damage": 1000,
+      "damage": 1500,
       "bulletWidth": 20,
       "bulletHeight": 25,
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
       "targetAir": true,
       "ammoMultiplier": 5,
-      "homingPower": 10,
+      "homingPower": 1,
       "homingRange": 100
     }
   },
