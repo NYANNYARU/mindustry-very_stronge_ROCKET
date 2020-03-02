@@ -10,6 +10,8 @@
   "inaccuracy": 0,
   "rotatespeed": 5,
   "shootSound": "missile",
+  "targetAir": true,
+  "targetGround": true,
   "ammo": {
     "surge-alloy": {
       "type": "MissileBulletType",
