@@ -1,5 +1,5 @@
 {
-  "type": "DoubleTurret",
+  "type": "ItemTurret",
   "name": "rocket",
   "description": "strong rocket",
   "health": 20000,
