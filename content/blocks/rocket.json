@@ -1,6 +1,7 @@
 {
   "type": "DoubleTurret",
   "name": "rocket",
+  "lifetime": 45,
   "description": "strong rocket",
   "health": 20000,
   "size": 8,
@@ -14,6 +15,7 @@
     "surge-alloy": {
       "type": "MissileBulletType",
       "frontColor": "ffff00",
+      "backColor": "aaaa00",
       "speed": 7.20,
       "damage": 2000,
       "bulletWidth": 20,
@@ -30,6 +32,7 @@
     "graphite": {
       "type": "MissileBulletType",
       "frontColor": "00ffff",
+      "backColor": "00aaaa",
       "speed": 7.20,
       "damage": 1500,
       "bulletWidth": 20,
@@ -45,6 +48,7 @@
     "phase-fabric": {
       "type": "MissileBulletType",
       "frontColor": "ffaa00",
+      "backColor": "aa5500",
       "speed": 7.20,
       "damage": 7500,
       "bulletWidth": 20,
@@ -60,6 +64,7 @@
     "silicon": {
       "type": "MissileBulletType",
       "frontColor": "777777",
+      "backColor": "222222",
       "speed": 7.20,
       "damage": 1000,
       "bulletWidth": 20,
