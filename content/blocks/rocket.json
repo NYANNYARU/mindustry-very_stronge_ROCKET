@@ -61,7 +61,7 @@
       "homingPower": 1,
       "homingRange": 5,
       "splashDamage": 1000,
-      "splashDamageRadius": 34,
+      "splashDamageRadius": 100,
       "reloadMultiplier": 0.1
     },
     "silicon": {
@@ -77,7 +77,7 @@
       "targetAir": true,
       "ammoMultiplier": 5,
       "homingPower": 10,
-      "homingRange": 250
+      "homingRange": 500
     }
   },
   "requirements": [
