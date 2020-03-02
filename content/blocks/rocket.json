@@ -47,7 +47,7 @@
       "reloadMultiplier": 0.75
     },
     "phase-fabric": {
-      "type": "FlakBulletType",
+      "type": "MissileBulletType",
       "frontColor": "ffaa00",
       "backColor": "aa5500",
       "speed": 7.20,
@@ -60,6 +60,8 @@
       "ammoMultiplier": 5,
       "homingPower": 1,
       "homingRange": 5,
+      "splashDamage": 1000,
+      "splashDamageRadius": 100,
       "reloadMultiplier": 0.1
     },
     "silicon": {
