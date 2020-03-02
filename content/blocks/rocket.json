@@ -13,6 +13,7 @@
   "ammo": {
     "surge-alloy": {
       "type": "MissileBulletType",
+      "frontColor": "ffff00",
       "speed": 7.20,
       "damage": 2000,
       "bulletWidth": 20,
@@ -28,18 +29,7 @@
     },
     "graphite": {
       "type": "MissileBulletType",
-      "speed": 7.20,
-      "damage": 1000,
-      "bulletWidth": 20,
-      "bulletHeight": 25,
-      "shootEffect": "shootSmall",
-      "smokeEffect": "shootSmallSmoke",
-      "targetAir": true,
-      "ammoMultiplier": 5,
-      "homingPower": 1,
-      "homingRange": 20
-    },
-    "phase-fabric": {
+      "frontColor": "00ffff",
       "speed": 7.20,
       "damage": 1500,
       "bulletWidth": 20,
@@ -49,6 +39,36 @@
       "targetAir": true,
       "ammoMultiplier": 5,
       "homingPower": 1,
+      "homingRange": 20,
+      "reloadMultiplier": 0.75
+    },
+    "phase-fabric": {
+      "type": "MissileBulletType",
+      "frontColor": "ffaa00",
+      "speed": 7.20,
+      "damage": 7500,
+      "bulletWidth": 20,
+      "bulletHeight": 25,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "targetAir": true,
+      "ammoMultiplier": 5,
+      "homingPower": 1,
+      "homingRange": 5,
+      "reloadMultiplier": 0.1
+    },
+    "silicon": {
+      "type": "MissileBulletType",
+      "frontColor": "777777",
+      "speed": 7.20,
+      "damage": 1000,
+      "bulletWidth": 20,
+      "bulletHeight": 25,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "targetAir": true,
+      "ammoMultiplier": 5,
+      "homingPower": 10,
       "homingRange": 100
     }
   },
@@ -60,7 +80,7 @@
     {  "item": "titanium", "amount": 2000 },
     {  "item": "graphite", "amount" : 500 },
     { "item": "surge-alloy", "amount": 500 },
-    { "item": "phase-fabric", "amount": 500 }
+    { "item": "phase-fabric", "amount": 50 }
   ],
   "category": "turret",
   "research": "spectre"
