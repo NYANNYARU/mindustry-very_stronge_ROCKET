@@ -40,7 +40,6 @@
       "homingRange": 20
     },
     "silicon": {
-      "type": "MissileBulletType",
       "speed": 7.20,
       "damage": 1500,
       "bulletWidth": 20,
