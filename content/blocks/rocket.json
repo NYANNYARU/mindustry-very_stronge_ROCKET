@@ -1,14 +1,13 @@
 {
-  "type": "DoubleTurret",
+  "type": "LiquidTurret",
   "name": "rocket",
-  "lifetime": 1000,
   "description": "strong rocket",
   "health": 20000,
   "size": 8,
   "reload": 15,
   "range": 500,
   "ammoUseEffect": "shellEjectSmall",
-  "inaccuracy": 10,
+  "inaccuracy": 0,
   "rotatespeed": 5,
   "shootSound": "missile",
   "ammo": {
@@ -74,7 +73,7 @@
       "targetAir": true,
       "ammoMultiplier": 5,
       "homingPower": 10,
-      "homingRange": 100
+      "homingRange": 250
     }
   },
   "requirements": [
