@@ -21,7 +21,7 @@
 	},
 	"requirements": [
 		{ "item": "surge-alloy", "amount": 1 },
-		{ "item": "plustanium", "amount": 50 },
+		{ "item": "plastanium", "amount": 50 },
 		{ "item": "lead", "amount": 35 },
 		{ "item": "silicon", "amount": 50 }
 	],
