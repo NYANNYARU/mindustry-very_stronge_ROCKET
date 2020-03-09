@@ -11,7 +11,7 @@
 	"craftTime": 180,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 0.75,
+		"power": 3,
 		"items": {
 			"items": [
 				{ "item": "plastanium", "amount": 5 },
