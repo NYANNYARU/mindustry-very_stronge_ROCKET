@@ -83,12 +83,12 @@
   "requirements": [
     { "item": "copper", "amount": 3000 },
     {  "item": "lead", "amount": 3000 },
-    {  "item": "plastanium", "amount": 100 },
+    {  "item": "plastanium", "amount": 1000 },
     {  "item": "thorium", "amount": 1500 },
     {  "item": "titanium", "amount": 2000 },
     {  "item": "graphite", "amount" : 500 },
     { "item": "surge-alloy", "amount": 500 },
-    { "item": "phase-fabric", "amount": 50 }
+    { "item": "plas-alloy", "amount": 100 }
   ],
   "category": "turret",
   "research": "spectre"

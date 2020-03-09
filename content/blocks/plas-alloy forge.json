@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "plas-alloy forge",
+	"description": "create plas-alloy. SurgeAlloy and plastanium",
+	"outputItem": {"item": "plas-alloy", "amount": "2"},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 180,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.75,
+		"items": {
+			"items": [
+				{ "item": "plastanium", "amount": 5 },
+				{ "item": "surge-alloy", "amount": 5 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 1 },
+		{ "item": "plustanium", "amount": 50 },
+		{ "item": "lead", "amount": 35 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
